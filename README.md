@@ -49,36 +49,52 @@ git pull origin main
 git clone <repository-url>
 ```
 
-Branching Commands
+# Git Branching Commands
 
-Create a New Branch
+## Create a New Branch
 
+```bash
 git branch feature-branch
+```
 
-Switch to a Branch
+## Switch to a Branch
 
+```bash
 git checkout feature-branch
+```
 
-Or using the newer command:
+## Switch Using the New Command
 
+```bash
 git switch feature-branch
+```
 
-Create and Switch to a New Branch
+## Create and Switch to a New Branch
 
+```bash
 git checkout -b feature-branch
+```
 
-Or:
+## Create and Switch Using the New Command
 
+```bash
 git switch -c feature-branch
+```
 
-List All Branches
+## List All Branches
 
+```bash
 git branch
+```
 
-Delete a Branch
+## Delete a Branch
 
+```bash
 git branch -d feature-branch
+```
 
-Rename the Current Branch
+## Rename the Current Branch
 
+```bash
 git branch -m new-branch-name
+```

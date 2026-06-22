@@ -98,3 +98,47 @@ git branch -d feature-branch
 ```bash
 git branch -m new-branch-name
 ```
+
+# Git Merge Commands
+
+## Merge a Branch into Current Branch
+
+```bash
+git merge feature-branch
+```
+
+## Switch to Main Branch
+
+```bash
+git checkout main
+```
+
+## Merge Feature Branch into Main
+
+```bash
+git merge feature-branch
+```
+
+## Abort a Merge
+
+```bash
+git merge --abort
+```
+
+## View Merge History
+
+```bash
+git log --oneline --graph
+```
+
+## Fast Forward Merge
+
+```bash
+git merge --ff-only feature-branch
+```
+
+## Merge Without Fast Forward
+
+```bash
+git merge --no-ff feature-branch
+```

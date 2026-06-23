@@ -142,3 +142,46 @@ git merge --ff-only feature-branch
 ```bash
 git merge --no-ff feature-branch
 ```
+# Git Reset Commands
+
+## Soft Reset
+
+```bash
+git reset --soft HEAD~1
+```
+
+## Mixed Reset
+
+```bash
+git reset HEAD~1
+```
+
+## Hard Reset
+
+```bash
+git reset --hard HEAD~1
+```
+
+## Reset a Specific File
+
+```bash
+git reset filename
+```
+
+## Unstage All Changes
+
+```bash
+git reset
+```
+
+## Reset to a Specific Commit
+
+```bash
+git reset --hard <commit-hash>
+```
+
+## View Commit History
+
+```bash
+git log --oneline
+```

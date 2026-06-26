@@ -185,3 +185,46 @@ git reset --hard <commit-hash>
 ```bash
 git log --oneline
 ```
+# Git Restore Commands
+
+## Restore a Modified File
+
+```bash
+git restore filename
+```
+
+## Restore All Modified Files
+
+```bash
+git restore .
+```
+
+## Unstage a File
+
+```bash
+git restore --staged filename
+```
+
+## Unstage All Files
+
+```bash
+git restore --staged .
+```
+
+## Restore a File from a Specific Commit
+
+```bash
+git restore --source <commit-hash> filename
+```
+
+## Restore Both Staged and Working Directory
+
+```bash
+git restore --source HEAD --staged --worktree filename
+```
+
+## Check Repository Status
+
+```bash
+git status
+```
